@@ -1,0 +1,105 @@
+name: Upload PDF to Zenodo
+
+on:
+  push:
+    paths:
+      - 'zenodo-upload/*.pdf'
+      - '.github/workflows/upload-pdf-to-zenodo.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Find PDF
+        id: pdf
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mapfile -t pdfs < <(find zenodo-upload -maxdepth 1 -type f -name '*.pdf' | sort)
+
+          if [ "${#pdfs[@]}" -eq 0 ]; then
+            echo "No PDF found in zenodo-upload/."
+            exit 1
+          fi
+
+          if [ "${#pdfs[@]}" -ne 1 ]; then
+            echo "Please keep exactly one PDF in zenodo-upload/."
+            printf '%s\n' "${pdfs[@]}"
+            exit 1
+          fi
+
+          echo "path=${pdfs[0]}" >> "$GITHUB_OUTPUT"
+          echo "name=$(basename "${pdfs[0]}")" >> "$GITHUB_OUTPUT"
+
+      - name: Validate Zenodo configuration
+        env:
+          ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
+          ZENODO_DEPOSITION_ID: ${{ vars.ZENODO_DEPOSITION_ID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -z "${ZENODO_ACCESS_TOKEN}" ]; then
+            echo "Missing repository secret ZENODO_ACCESS_TOKEN."
+            exit 1
+          fi
+
+          if [ -z "${ZENODO_DEPOSITION_ID}" ]; then
+            echo "Missing repository variable ZENODO_DEPOSITION_ID."
+            exit 1
+          fi
+
+      - name: Upload PDF to Zenodo
+        env:
+          PDF_PATH: ${{ steps.pdf.outputs.path }}
+          PDF_NAME: ${{ steps.pdf.outputs.name }}
+          ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
+          ZENODO_DEPOSITION_ID: ${{ vars.ZENODO_DEPOSITION_ID }}
+          ZENODO_API_URL: ${{ vars.ZENODO_API_URL }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          api_url="${ZENODO_API_URL:-https://zenodo.org/api}"
+
+          deposition_json="$(curl --fail --silent --show-error \
+            --header "Authorization: Bearer ${ZENODO_ACCESS_TOKEN}" \
+            "${api_url}/deposit/depositions/${ZENODO_DEPOSITION_ID}")"
+
+          bucket_url="$(jq -r '.links.bucket // empty' <<< "${deposition_json}")"
+
+          if [ -z "${bucket_url}" ]; then
+            echo "Could not read the Zenodo bucket URL from deposition ${ZENODO_DEPOSITION_ID}."
+            exit 1
+          fi
+
+          curl --fail --silent --show-error \
+            --request PUT \
+            --header "Authorization: Bearer ${ZENODO_ACCESS_TOKEN}" \
+            --upload-file "${PDF_PATH}" \
+            "${bucket_url}/${PDF_NAME}"
+
+      - name: Publish deposition
+        if: ${{ vars.ZENODO_AUTO_PUBLISH == 'true' }}
+        env:
+          ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
+          ZENODO_DEPOSITION_ID: ${{ vars.ZENODO_DEPOSITION_ID }}
+          ZENODO_API_URL: ${{ vars.ZENODO_API_URL }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          api_url="${ZENODO_API_URL:-https://zenodo.org/api}"
+
+          curl --fail --silent --show-error \
+            --request POST \
+            --header "Authorization: Bearer ${ZENODO_ACCESS_TOKEN}" \
+            "${api_url}/deposit/depositions/${ZENODO_DEPOSITION_ID}/actions/publish"
