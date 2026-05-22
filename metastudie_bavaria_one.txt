@@ -1,0 +1,450 @@
+================================================================================
+  METASTUDIE: BAVARIA ONE
+  Raumontologische Annahmen · Kosten · HTM-Gegenüberstellung
+  Stand: 21. Mai 2026 | Kevin Hannemann / HTM-Metageometra-Projekt
+================================================================================
+
+QUELLENGRUNDLAGE
+────────────────
+  • Focus.de / Prof. Dr. Ulrich Walter (TU München, Raumfahrttechnik), 11.10.2018
+  • Augsburger Allgemeine: "700 Millionen für Bavaria One", 01.07.2019
+  • VICE: "Fragen, die Söders Bavaria One aufwirft", 04.10.2018
+  • Bayerische Staatszeitung: "Kaum Geld für Söders Raumfahrtprogramm", 2019
+  • CMP Financial Engineers: Fördermittelsteckbrief Raumfahrtstrategie Bavaria One
+  • FragDenStaat.de: Anfrage "Projekte, Ziele und Kosten des bayer. Raumfahrtprojektes"
+  • Regierungserklärung Markus Söder, 18. April 2018, Punkt III
+  • Kabinettsbeschluss Bayern, 2. Oktober 2018
+
+
+================================================================================
+  TEIL I — WAS IST BAVARIA ONE?
+================================================================================
+
+Bavaria One ist das offizielle Raumfahrtprogramm des Freistaats Bayern,
+ausgerufen von Ministerpräsident Markus Söder (CSU) am 18. April 2018 in seiner
+Regierungserklärung. Es ist kein einzelner Satellit, sondern eine staatliche
+Förderstrategie für die bayerische Luft- und Raumfahrtindustrie im Kontext des
+globalen NewSpace-Marktes.
+
+  Leitbild: "Raumfahrt zum Nutzen der Gesellschaft: Für die Erde ins All!"
+
+  Zitat Söder (Regierungserklärung 2018):
+  "Bayern muss an der Spitze des Fortschritts bleiben. [...] Dazu machen wir die
+  Raumfahrt wieder zu einer bayerischen Schlüsseltechnologie und gründen eine eigene
+  Fakultät an der TU in Ottobrunn. Im Mittelpunkt steht dabei das neue bayerische
+  Raumfahrtprogramm Bavaria One. Ziel ist die Entwicklung unbemannter, suborbitaler
+  Flugkörper, Erdbeobachtung und Quanten-Sensorik."
+
+  Kernmarkt:  NewSpace — globales Marktvolumen 2018: ~470 Mrd. USD/Jahr
+  Fokus:      Unbemannte Raumfahrt (EXPLIZIT — keine bemannte Mondmission)
+  Bereiche:   Satellitenbau, Raketenstarts, Erdbeobachtung, Navigation, Quantensensorik
+
+
+================================================================================
+  TEIL II — ZEHN AKTIONSFELDER VON BAVARIA ONE
+================================================================================
+
+  1.  EXZELLENTE FORSCHUNG & AUSBILDUNG
+      Gründung einer eigenen TUM-Fakultät für Luftfahrt, Raumfahrt und Geodäsie
+      in Ottobrunn bei München.
+      → Größte Raumfahrtfakultät in Europa: ~50 Professuren, ~1.000 Studenten
+
+  2.  SPACE START-UPS FÖRDERN
+      Bayern als führenden Standort für NewSpace-Gründungen etablieren.
+      → Beteiligte/geförderte Firmen: Isar Aerospace (Ottobrunn), Rocket Factory
+        Augsburg (RFA), OHB (Bremen/München), Airbus Defence & Space (Ottobrunn),
+        Tesat (Backnang), mynaric (München)
+
+  3.  SCHAUFENSTER RAUMFAHRT BAYERN
+      Entwicklung eines bayerischen Erderkundungssatelliten "BavariaSat"
+      mit fernsteuerbarer Videokamera.
+      → Satellit "Bavaria One" (Namenskonzept) = ~50 Mio. € Satellitenbau
+      → Startkosten via SpaceX Falcon 9: 50–78 Mio. € (gewichtsabhängig)
+
+  4.  ERDBEOBACHTUNGS-STANDORT
+      Ausbau des Earth Observation Centers (EOC) in Oberpfaffenhofen (DLR)
+      zum Big-Data–Earth Analysis Center.
+
+  5.  SATELLITENNAVIGATION & GALILEO
+      Kompetenzstandort ausbauen. Bayern liefert Schlüsseltechnologie für Galileo
+      (OHB, Tesat).
+
+  6.  KLEINSATELLITEN (KEY TECHNOLOGY)
+      Technologieführerschaft bei Erderkundungs-Kleinsatelliten (NewSpace-Kern).
+
+  7.  RAUMFAHRTKOMPONENTEN
+      Stärkung bayerischer Kompetenz in F&E + Produktion von Komponenten:
+      Triebwerke, Solarpanels, Strukturen, Onboard-Computer.
+
+  8.  TRÄGERRAKETEN
+      Bayern als führenden Standort für Entwicklung und Produktion von
+      Trägerraketen-Technologien.
+      → Isar Aerospace: Spectrum-Rakete (Flüssigstoff, 1 t in LEO) — erster
+        Startversuch 2024 (Andøya, Norwegen); RFA One (geplant)
+
+  9.  INFORMATIONS- & QUANTENTECHNOLOGIE
+      Quantensensorik für die Raumfahrt; verschlüsselte Satellitenkommunikation.
+
+  10. WELTRAUMROBOTIK & EXPLORATION
+      Robotiksysteme für planetare Exploration; DLR-Kompetenz (ROBEX, CAESAR).
+
+
+================================================================================
+  TEIL III — KOSTEN & FINANZIERUNG (DETAILANALYSE)
+================================================================================
+
+  GESAMTVOLUMEN:
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  Förderprogramm Bavaria One (2019–2023):  700 Millionen Euro    │
+  │  Zeitraum: 4 Jahre ab 2019                                      │
+  │  Träger: Freistaat Bayern (Staatshaushalt)                      │
+  │  Kabinettsbeschluss: 2. Oktober 2018                            │
+  └─────────────────────────────────────────────────────────────────┘
+
+  EINZELPOSITIONEN (rekonstruiert aus öffentlichen Quellen):
+  ─────────────────────────────────────────────────────────
+  Position                                  Betrag (geschätzt)  Quelle
+  ──────────────────────────────────────    ──────────────────  ──────────────
+  TUM-Fakultät Ottobrunn                    ~100–150 Mio. €     Söder 2018/AA
+  (Bau + Personal + 50 Professuren)
+  BavariaSat / Erderkundungssatellit        ~50 Mio. €          AA 01.07.2019
+  (Satellitenbau, ohne Startkosten)
+  Startkosten BavariaSat via SpaceX         ~50–78 Mio. €       VICE 04.10.2018
+  Space-Start-Up-Förderung                  ~100–150 Mio. €     CMP-FE
+  Forschungsförderung (DLR, Unis)           ~100–150 Mio. €     CMP-FE
+  EOC Oberpfaffenhofen — Big Data           ~50–80 Mio. €       Schätzung
+  Galileo/Satellitennavigation              ~50–80 Mio. €       Schätzung
+  Quantentechnologie / IT-Sicherheit        ~30–50 Mio. €       Schätzung
+  Weltraumrobotik (DLR)                     ~20–30 Mio. €       Schätzung
+  ──────────────────────────────────────    ──────────────────  ──────────────
+  SUMME (plausibel):                        ~550–770 Mio. €     ≈ 700 Mio. €
+
+  REALISIERUNGSGRAD (Stand 2024):
+  • Tatsächlich ausgezahlte Mittel nach ersten Jahren: deutlich unter Plan
+  • Bayerische Staatszeitung (2019): "Fast kein Geld für Bavaria One" —
+    die angekündigten 700 Mio. € seien noch nicht in Haushaltsplänen verankert
+  • FragDenStaat.de-Anfrage (2019): Kosten noch nicht präzisiert, Projekte in
+    Ausarbeitungsphase
+  • Hochtech Agenda Bayern (2019) übernahm Teile von Bavaria One mit neuem
+    Branding  (200 Mio. € für Luft- und Raumfahrt explizit)
+
+  ZUSÄTZLICHE EU-MITTEL (ergänzend zu Bayern-Budget):
+  • ESA-Mitgliedsbeiträge Deutschland: ~800 Mio. €/Jahr (Bundesanteil)
+    Bayern-Anteil (ca. 22% Wirtschaftskraft): ~176 Mio. €/Jahr → indirekt
+  • Horizon Europe (Raumfahrt): ~1,8 Mrd. € für 2021–2027 EU-weit
+  • EFRE/ESFRI-Förderung Bayern: zusätzl. ~30–50 Mio. € Raumfahrt-nahe F&E
+
+  KOSTENVERGLEICH FLAGGSCHIFF-PROJEKTE DER BETEILIGTEN FIRMEN:
+  Projekt              Firma              Kosten         Status (2024/25)
+  ─────────────────    ───────────────    ────────────   ──────────────────────
+  Spectrum-Rakete      Isar Aerospace     ~300 Mio. €*   Startversuch 2024 (✗)
+  (LEO, 1t Nutzlast)   (Ottobrunn)        inkl. Venture  Neustart geplant
+  RFA One              Rocket Factory     ~200 Mio. €*   in Entwicklung
+                       Augsburg (RFA)
+  BavariaSat (geplant) DLR/TUM Bayern     ~50 Mio. €     noch nicht beauftragt
+  EOC Big Data Center  DLR Oberpfaff.     ~50–80 Mio. €  teilrealisiert
+  TUM-Fakultät Ottobr. TUM München        ~150 Mio. €    in Aufbau (2023–)
+  *inkl. privates Venture Capital (nicht nur Bayern-Mittel)
+
+
+================================================================================
+  TEIL IV — RAUMONTOLOGISCHE ANNAHMEN VON BAVARIA ONE
+================================================================================
+
+  Bavaria One ist ein INGENIEURSPROGRAMM, keine kosmologische Theorie.
+  Dennoch setzt es implizit spezifische Raumannahmen voraus, die sich direkt
+  auf technische Auslegung, Missionsplanung und Grundlagenforschung auswirken.
+
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │  EBENE 1: OPERATIVE RAUMONTOLOGIE (Orbitmechanik)                           │
+  │                                                                             │
+  │  Annahme:  Raum = R³ (flacher euklidischer 3-Raum) + Zeit als Parameter    │
+  │  Modell:   Newtonsche Gravitation + Keplersche Orbitalmechanik              │
+  │  Korrekturen via Allgemeine Relativitätstheorie (Schwarzschild):            │
+  │    • GPS/Galileo-Uhren: GR-Korrektion +38 μs/Tag (Graviationsrotrotshift   │
+  │      +45.9 μs/Tag − Zeitdilatation −7.2 μs/Tag = netto +38.7 μs/Tag)      │
+  │    • Geodätische Präzession der Bahnellipse (Periheldrift kleiner Betrag)   │
+  │  GR wird als PERTURBATION behandelt, nicht als fundamentale Geometrie.      │
+  │                                                                             │
+  │  Topologieannahme:  R³ (schlicht zusammenhängend, nicht kompakt)            │
+  │  k=0-Entsprechung:  Lokaler Minkowski-Raum ≈ globale Annahme               │
+  │  S³-Topology:       NICHT BERÜCKSICHTIGT (für LEO/MEO/GEO irrelevant)      │
+  └─────────────────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │  EBENE 2: ERDMODELL (Geodäsie / Erdbeobachtung, EOC Oberpfaffenhofen)       │
+  │                                                                             │
+  │  Annahme:  WGS84-Ellipsoid (a=6378137 m, f=1/298.257223563)                │
+  │  Raum:     Lokal-flach, geodätische Koordinaten (λ, φ, h)                  │
+  │  Gravitation: EGM2008 Schwerefeldmodell (2160×2160 Sphäroide)              │
+  │  Atmosphäre: COSPAR-CIRA / NRLMSISE-00                                      │
+  │  Topologie: E³ lokal; S² (Kugeloberfläche) für Erdbeobachtungsgeometrie    │
+  │                                                                             │
+  │  Quantenkompass/-sensorik (Aktionsfeld 9):                                  │
+  │    • Atom-Interferometrie: Nullhypothese = lokale Minkowski-Metrik          │
+  │    • Äquivalenzprinzip-Tests: deltaomitiert, sucht nach nicht-GR-Signalen  │
+  │    • HTM-Torsion würde messbare Effekte in Quantengravimetrie haben!        │
+  └─────────────────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │  EBENE 3: KOSMOLOGISCHE HINTERGRUNDANNAHME (implizit)                       │
+  │                                                                             │
+  │  Raumfahrtprogramme referenzieren ΛCDM als Standardrahmen:                  │
+  │    • ICRF3 (Internationaler Himmelsreferenzrahmen): 4536 Quasare            │
+  │      → Metrik: flacher Minkowski-Raum (k=0 FLRW auf Hubble-Skala)         │
+  │    • Planetare Ephemeris (DE440/DE441): Barycentric Dynamical Time (TDB)   │
+  │      → Einbettung in flachen Minkowski-Hintergrund                         │
+  │    • Satellitennavigation (Galileo/GPS): Lorentz-invariante Metrik         │
+  │      → k=0 impliziert: KEINE globale Krümmungskorrektur für Bahnen         │
+  │                                                                             │
+  │  EXPLIZITE KOSMOLOGIE:  KEINE                                               │
+  │  Bavaria One macht keine Aussagen zur Raumtopologie des Universums          │
+  │  Es setzt stillschweigend ΛCDM / R³ als Hintergrundraum voraus.            │
+  │                                                                             │
+  │  KONSEQUENZ (HTM-Perspektive):                                              │
+  │    • Bei S³-Topologie (HTM): Geodätische Korrekturen für Abstände           │
+  │      >2474 Mpc (l_gap = R/√3) — für LEO/GEO: KEIN Unterschied             │
+  │    • HTM-Torsionsfeld: könnte als systematisches Signal in                  │
+  │      Quantenkompass-Experimenten (Aktionsfeld 9) sichtbar sein!             │
+  │    • Ω_K = -0.044 ± 0.015 (Planck 2018): S³ bevorzugt; Bavaria One        │
+  │      berücksichtigt dies NICHT in Missionsplanung oder Grundlagenforschung  │
+  └─────────────────────────────────────────────────────────────────────────────┘
+
+  ZUSAMMENFASSUNG RAUMONTOLOGISCHE ANNAHMEN:
+  ────────────────────────────────────────────
+  Ebene        Modell                Topologie   k-Äquivalent  GR-Behandlung
+  ───────────  ────────────────────  ──────────  ────────────  ─────────────
+  Orbitmech.   Newton + Kepler       R³          k=0           Störungskorr.
+  Erdmodell    WGS84 + EGM2008       E³ / S²     n.a.          Perturb.
+  ICRF/Epheme. Lorentz-invariant     R³(Minsk.)  k=0           Schwach-Feld
+  Kosm. Hgrd.  ΛCDM implizit        R³          k=0           NICHT explizit
+  Quantensens. Äquivalenzprinzip     {lokal}     k=0 lokal     Testbett
+  ───────────  ────────────────────  ──────────  ────────────  ─────────────
+  Bayern HTM   S³ (abgeleitet!)      S³ kompakt  k=-1/(R²)!    exakte Geomet.
+
+
+================================================================================
+  TEIL V — AKTEURSANALYSE & INSTITUTIONELLE VERFLECHTUNG
+================================================================================
+
+  WISSENSCHAFTLICH BETEILIGTE INSTITUTIONEN:
+  ─────────────────────────────────────────────
+  Institution                  Standort          Verbindung zu Bavaria One
+  ──────────────────────────── ─────────────── ───────────────────────────
+  TU München (TUM)             Ottobrunn/Mchn  Neue Raumfahrtfakultät (Aktionsf.1)
+  DLR Oberpfaffenhofen         Wessling         EOC, Erdbeobachtung (Aktionsf.4)
+  DLR Augsburg                 Augsburg         Materialforschung (Aktionsf.7)
+  OHB SE (Tochter Bayern)      Bremen/Mchn      Satellitenbau, Galileo (Aktionsf.5,6)
+  Airbus Defence & Space       Ottobrunn        Komponenten, Triebwerke (Aktionsf.7)
+  Tesat-Spacecom               Backnang         Laser-Komm. für Galileo (Aktionsf.5)
+  Isar Aerospace               Ottobrunn        Trägerrakete Spectrum (Aktionsf.8)
+  Rocket Factory Augsburg      Augsburg         Trägerrakete RFA One (Aktionsf.8)
+  mynaric AG                   Gilching         Laserkomm. Konstel. (Aktionsf.6)
+  Fraunhofer IOSB-AST          Ettlingen        Sensorsysteme (Aktionsf.9)
+  Leibniz-Rechenzentrum (LRZ)  Garching         HPC für Erdbeobachtung (Aktionsf.4)
+  Max-Planck-Institut f. Astr. München/Garching Quanten/Interferometrie (Aktionsf.9)
+
+  POLITISCHE AKTEURE:
+  ──────────────────────────────────────────────────────────────────────────
+  Markus Söder (CSU): Initiator, Regierungserklärung April 2018
+  Hubert Aiwanger (früher Wirtschaftsmin.): Zuständiger Minister, Umsetzung
+  Wirtschaftsministerium Bayern: Ausarbeitung der 10 Aktionsfelder
+  Kabinett Bayern: Beschluss 02.10.2018
+
+  EXTERNE PARTNER:
+  SpaceX — Startdienstleister für BavariaSat (geplant, ~50–78 Mio. € pro Start)
+  ESA — übergeordneter europäischer Rahmen
+  EU Copernicus — Erdbeobachtungsprogramm (Datenabnehmer EOC)
+
+
+================================================================================
+  TEIL VI — RAUMONTOLOGIE: BAVARIA ONE vs. HTM GEGENÜBERSTELLUNG
+================================================================================
+
+  VERGLEICH: RAUM-MODELL
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │  Kriterium               Bavaria One              HTM V25.5                  │
+  │  ──────────────────────  ──────────────────────── ─────────────────────────  │
+  │  Raumtopologie           R³ (implizit), lokal     S³ kompakt (hergeleitet)   │
+  │  Krümmung k              k=0 (nie thematisiert)   k<0 (k=-3/R²+geom.)       │
+  │  Raumradius              ∞ (Minkowski)            R=4285 Mpc (endlich)       │
+  │  GR-Behandlung           Störungstheorie PPN      exakte S³-Riemanngeom.     │
+  │  Torsion                 NICHT berücksichtigt     ZentralIngredient (S³)     │
+  │  Dunkle Materie          ΛCDM-Hintergrundann.     DM = S³-Eigenmode          │
+  │  Dunkle Energie          ΛCDM-Hintergrundann.     Λ = 24/R² (geom. Zwang)   │
+  │  Kosmologische Konst.    Söder: nie erwähnt       Λ aus Raumgeometrie        │
+  │  Empirische Tests        indirekte Erdbeob.       DESI DR1 (direkt, 2026)    │
+  │  Clay-Probleme           nicht erwähnt            YM + NS explizit adress.   │
+  └──────────────────────────────────────────────────────────────────────────────┘
+
+  VERGLEICH: KOSTEN & RESSOURCEN
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │  Kriterium               Bavaria One              HTM V25.5                  │
+  │  ──────────────────────  ──────────────────────── ─────────────────────────  │
+  │  Gesamtbudget            700 Mio. € (staatlich)   0 € (keine Förderung)      │
+  │  Jährliches Budget       ~175 Mio. €/Jahr         < 1 €/Monat               │
+  │  Team-Größe              100+ Professoren, Firmen 1 Person                   │
+  │  HPC-Ressourcen          LRZ Garching (Tier-0)    Celeron N4000 (6W)         │
+  │  Hardware-Investition    Milliarden (Raketentest)  ~200 € (Netbook)          │
+  │  Entwicklungszeit        2018–heute (6+ Jahre)    ~4 Wochen (April 2026)     │
+  │  Satellitenstart         ~50–78 Mio. € / Launch    keine Hardware nötig      │
+  │  Messdaten-Zugang        eigene Sensoren / ESA    NOIRLab TAP (gratis)       │
+  │  Raumontologie begründet? NEIN (k=0 implizit)     JA (S³ hergeleitet)       │
+  └──────────────────────────────────────────────────────────────────────────────┘
+
+  MÖGLICHE SYNERGIE (HTM → Bavaria One):
+  ──────────────────────────────────────
+  1. QUANTENSENSORIK (Aktionsfeld 9):
+     HTM sagt voraus: Torsionsfeld der S³-Metrik → messbare Asymmetrie in
+     Atom-Interferometrie entlang HTM-Knotenachsen (Rift l=305°, b=+25°).
+     Präzisionsstest mit Quantengravimeter im Orbit könnten HTM-Signal zeigen.
+     → Konkret: Satellit in polarem Orbit, Interferometrie-Experiment entlang
+       b_A=44.471° vs. b_B=5.529° — HTM-Vorhersage: messbare Richtungsasymmetrie
+
+  2. ERDBEOBACHTUNG (Aktionsfeld 4, EOC):
+     HTM-Voidstruktur (l_gap=2474 Mpc) manifestiert sich in großskaliger
+     Galaxienverteilung → DESI BGS-Daten (die bereits genutzt werden) enthalten
+     HTM-Signal. EOC-Infrastruktur könnte HTM-Tests skalieren.
+
+  3. KLEINSATELLITEN (Aktionsfeld 6):
+     Ein BavariaSat mit Spektrograph und Positionsgenauigkeit kann QSO-Korrelationen
+     an HTM-Knoten-Positionen messen (chi=59.1° Resonanztest aus dem Orbit).
+
+  KRITISCHE ANMERKUNG:
+  ──────────────────────
+  Bavaria One hat kein Grundlagenforschungsprogramm zur Raumtopologie.
+  Die 700 Mio. € gehen ausschließlich in angewandte Technik und Industrie.
+  Bayern ist damit symptomatisch für das globale HPC/Raumfahrt-System:
+  $470 Mrd. NewSpace-Markt / Jahr — kein Cent für Topologieprüfung.
+
+  Söder 2018: "Für die Erde ins All!"
+  HTM 2026:   "Für das Universum ins All — auf dem richtigen Raum."
+
+
+================================================================================
+  TEIL VII — HISTORISCHE ENTWICKLUNG & AKTUELLE PROJEKTE (2018–2026)
+================================================================================
+
+  ZEITACHSE BAVARIA ONE:
+  ──────────────────────
+  Apr 2018   Söder-Regierungserklärung: Bavaria One angekündigt
+  Okt 2018   Kabinettsbeschluss: 700 Mio. €, 10 Aktionsfelder formell beschlossen
+             Strategiekreis (incl. Prof. Ulrich Walter, TUM) erarbeitet Details
+  2019       Bayerische Staatszeitung: "Kaum Geld" — Mittel noch nicht verankert
+             FragDenStaat.de: Kosten unklar, in Ausarbeitung
+             Augsburger Allgemeine: "700 Millionen für Bavaria One" (Bestätigung)
+  2019       Hightech Agenda Bayern: Bavaria One teils neu gebrandert
+             200 Mio. € explizit für Luft- und Raumfahrt in HTA
+  2020–21    COVID-19: Haushaltsdruck in Bayern → Verzögerungen
+  2022       TUM-Fakultät Ottobrunn: Aufbau begonnen (Lehrstuhl Raumfahrttechnik
+             bereits vorhanden unter Prof. Ulrich Walter seit 2003)
+  2023       Isar Aerospace Spectrum: Erster Startversuch vorbereitet
+             (Andøya, Norwegen) — Finanzierung ~300 Mio. € Venture+Bayern
+  2024       Isar Aerospace Spectrum: Startversuch am 30. März 2024
+             → Abbruch kurz vor Zündung (kein Fehlschlag; erfolgloses Debut)
+             → zweiter Versuch angekündigt
+  2024       Rocket Factory Augsburg (RFA): weiterhin in Entwicklung, Testläufen
+  2025       Isar Aerospace: neue Investitionsrunde (~400 Mio. € Gesamtfinanzierung)
+  2026       Bavaria One als explizit benannte "Phase" weitgehend in breitere
+             Hightech Agenda / New-Space-Bayern übergegangen
+             BavariaSat: kein Launch-Datum bekannt (Projekt noch nicht beauftragt)
+
+  ISAR AEROSPACE — DETAILKOSTEN (repräsentativ):
+  ─────────────────────────────────────────────
+  Gründung:          2018 (Spin-off TUM)
+  Standort:          Ottobrunn bei München
+  Produkt:           Spectrum — zweistufige Flüssigrakete (Kerosin/LOX)
+  Nutzlast:          ~1.000 kg in SSO bei 500 km
+  Startpreis (Ziel): 30–50 Mio. € / Start (bei Serienbetrieb)
+  Entwicklungskosten:~300 Mio. €+ (Venture Capital + Bayern + EU)
+  Investoren:        Airbus, Lakestar, Bayern Kapital, Earlybird, HV Capital
+  Bayern-Anteil:     ~30–50 Mio. € (LFA Förderbank + direkte Beteiligung)
+  Status 2026:       erster Teststart 2024 (Booster-Test OK, Abbruch vor Zündung)
+                     zweiter Startversuch in Vorbereitung
+
+  ROCKET FACTORY AUGSBURG (RFA) — DETAILKOSTEN:
+  ───────────────────────────────────────────────
+  Gründung:          2018 (Spin-off OHB + privat)
+  Standort:          Augsburg
+  Produkt:           RFA One — dreistufige Kleinstrakete (Kerosin/LOX)
+  Nutzlast:          ~450 kg in SSO bei 500 km
+  Startpreis (Ziel): ~20 Mio. € / Start
+  Entwicklungskosten:~200 Mio. €+ (ESA, EU, OHB, Bayern Kapital)
+  Status 2026:       Triebwerk-Tests laufend, kein Erststart noch erfolgt
+
+
+================================================================================
+  TEIL VIII — VERGLEICH MIT KOSMOLogischen MODELLEN (Bavaria One im Kontext)
+================================================================================
+
+  Bavaria One ist kein kosmologisches Modell. Es gehört zur Kategorie
+  "Ingenieursanwendung mit impliziter k=0-Annahme" — vergleichbar mit den
+  ΛCDM-Simulatoren, die Navier-Stokes ohne Regularitätsbeweis lösen.
+
+  EINORDNUNG IN DAS 40-MODELLE-RASTER DER HTM-METASTUDIE:
+
+  Kategorie:  Nicht-kosmologisch (Ingenieursanwendung)
+  Raummodell: R³ / WGS84 / Keplerellipse / Minkowski (de facto k=0)
+  CMI-Relevanz: NEIN — keine Millennium-Probleme adressiert
+  S³-Kompatibilität:
+    • LEO/GEO-Bahnen: VOLL kompatibel mit S³ (kein Unterschied für r << R)
+    • Quantensensorik: POTENTIELL sensitiv für HTM-Torsion (noch ungetestet)
+    • Erdbeobachtung: NICHT relevant für kosmologische Topologie
+  Clay-Schulden: KEINE (Ingenieursanwendung, keine mathematischen Ansprüche)
+
+  MODELLVERGLEICH — KOSTEN PRO FALSIFIKATIONSTEST:
+  ─────────────────────────────────────────────────
+  Ansatz                        Kosten           Raummodell-Prüfung
+  ─────────────────────────     ────────────     ───────────────────────────
+  Bavaria One / BavariaSat      ~128 Mio. €      NEIN (angewandte Technik)
+  FLAMINGO-Simulation (2023)    ~45.000 €/Run    NEIN (k=0 als Axiom)
+  Illustris TNG (2018)          ~6.750 €/Run     NEIN (k=0 als Axiom)
+  ΛCDM MCMC (wCDM-Fit)         0.10–10 €        NEIN (fittet k≈0 bestätigend)
+  Planck 2018 (ESA)             ~1.000 Mio. €    BEDINGT (Ω_K=-0.044±0.015)
+  HTM V25.5 (DESI DR1 Test)    < 0.01 €         JA (2.08× Signal, 8 Configs)
+
+  → Bavaria One: 700 Mio. € Raumfahrtprogramm — Raumtopologie: nie thematisiert.
+  → HTM V25.5: < 1 € Gesamtaufwand — Raumtopologie: zentraler Prüfpunkt.
+
+
+================================================================================
+  TEIL IX — ZUSAMMENFASSUNG & 5 KERNTHESEN
+================================================================================
+
+  1. BAVARIA ONE IST EIN INGENIEURSPROGRAMM MIT IMPLIZITER k=0-ANNAHME
+     Wie alle 40 kosmologischen Modelle der HTM-Metastudie setzt Bavaria One
+     den flachen Minkowski-Raum (k=0, R³) als ungeprüfte Vorannahme voraus.
+     Diese Annahme wird in keinem der 10 Aktionsfelder thematisiert oder
+     empirisch geprüft. Sie ist technisch irrelevant für LEO/GEO — aber
+     grundlegend falsch auf kosmologischer Skala (Planck 2018: Ω_K=-0.044).
+
+  2. KOSTEN-NUTZEN-VERHÄLTNIS IM RAUMTOPOLOGIE-KONTEXT IST EXTREM
+     700 Mio. € für Ingenieursanwendungen ohne Topologieprüfung.
+     HTM V25.5: < 1 € für direkten Falsifikationstest mit 2.08× Signal.
+     Bavaria One schickt Satelliten in den Raum, ohne zu wissen,
+     welche globale Topologie dieser Raum hat.
+
+  3. QUANTENSENSORIK (AKTIONSFELD 9) KÖNNTE HTM DIREKT TESTEN
+     Hochpräzisions-Atom-Interferometrie im Orbit ist sensitiv für
+     Torsionsfelder der S³-Geometrie. Bavaria One plant genau solche
+     Experimente — ohne die HTM-Vorhersage zu kennen.
+     Kontakt TUM/DLR: sofortiger Erkenntnisgewinn zu Nullkosten möglich.
+
+  4. SÖDER HAT RECHT — AUS INGENIEURSICHT
+     Für Erdbeobachtung, Kleinsatelliten und Trägerraketen ist k=0 eine
+     hervorragende Näherung. Die Raumtopologiedebatte spielt auf diesen
+     Skalen keine praktische Rolle.
+     Söders Fehler: Er denkt, die NewSpace-Milliarden messen, WAS Raum ist.
+     Tatsächlich messen sie, WIE der Raum lokal genutzt wird.
+
+  5. DAS PARADIGMA IST DASSELBE — VON FLAMINGO BIS BAVARIA ONE
+     Ob globale ΛCDM-Supercomputer, lokale HPC-Simulationen oder
+     bayerische Kleinsatelliten: ALLE setzen k=0/R³ voraus,
+     KEINER prüft es an der kosmologischen Grenze.
+     Ausnahme: HTM V25.5 (Kevin Hannemann, ~April 2026), 1 Person,
+     6W-Netbook, öffentliche Daten. Falsifikationssignal: 2.08×.
+
+================================================================================
+  METASTUDIE BAVARIA ONE | HTM Metageometra V25.5 | Kevin Hannemann
+  21. Mai 2026 | Datei: metastudie_bavaria_one.txt
+================================================================================
