@@ -56,15 +56,18 @@ input[type=range] { width:100px; accent-color:#3366ff; cursor:pointer; }
   </div>
   <div class="row"><span class="gold">SMBH Nr. 3, 9, 15, 21… → tangiert Rand</span></div>
   <div class="row"><span class="green">Schalen = Helix-Arm-Iterationen</span></div>
-  <div class="row" style="margin-top:5px; color:#445577;">
+  <div class="row" style="margin-top:5px; color:#66aacc;">
+    Arm B = Antipodal-Spiegel von A (−b, +180°)
+  </div>
+  <div class="row" style="margin-top:3px; color:#445577;">
     Λ_S³ = 24/R² · a₀ = c²/R · Δ = √3/R
   </div>
 </div>
 
 <div id="legend">
   <div class="li"><div class="dot" style="background:#ffd040;box-shadow:0 0 6px #ff9900"></div>SMBH Nr. 3,9,15,21,27… (Rand)</div>
-  <div class="li"><div class="dot" style="background:#00eeff"></div>Arm A — Knoten</div>
-  <div class="li"><div class="dot" style="background:#ff7722"></div>Arm B — Knoten</div>
+  <div class="li"><div class="dot" style="background:#00eeff"></div>Arm A — Nordhemisphäre (b=+5°…+44°)</div>
+  <div class="li"><div class="dot" style="background:#ff7722"></div>Arm B — Südhemisphäre (b=−5°…−44°)</div>
   <div class="li"><div class="dot" style="background:#3355aa; opacity:0.7"></div>Schalen (Iterationen)</div>
   <div class="li"><div class="dot" style="background:#ffffff; opacity:0.2"></div>S³ Rand (halb-transparent)</div>
   <div class="li"><div class="dot" style="background:#ff4400; opacity:0.7"></div>Rift-Achse l=305°, b=+25°</div>
@@ -163,11 +166,18 @@ function radFrac(n) {
   return Math.max(R_MIN_FRAC, raw);
 }
 
-/* 3D position of arm-arm (0=A,1=B), node n (1-indexed), radius R  */
+/* 3D position of arm (0=A,1=B), node n (1-indexed), radius Ru.
+   Arm B = ANTIPODAL DIAGONAL MIRROR of Arm A:
+     azimuth  +180°  (other side of sphere)
+     elevation negated  (flipped below equator)
+   → position_B = -position_A  (point symmetry through origin)
+   This gives the true S³ diagonal mirror:
+     Arm A: upper-right quadrant (b = +5.53°…+44.47°)
+     Arm B: lower-left quadrant  (b = −5.53°…−44.47°)          */
 function nodePos(arm, n, Ru) {
-  const offset = arm * Math.PI;             // arm B offset by 180°
-  const phi    = RIFT_L + offset + n * CHI; // azimuthal advance
-  const elev   = RIFT_B + TILT * Math.sin(n * Math.PI / 3); // oscillating latitude
+  const sign   = arm === 0 ? +1 : -1;           // +1 = north, -1 = south
+  const phi    = RIFT_L + arm * Math.PI + n * CHI; // azimuth: A normal, B +180°
+  const elev   = sign * (RIFT_B + TILT * Math.sin(n * Math.PI / 3)); // elevation mirrored
   const r      = Ru * radFrac(n);
   return new THREE.Vector3(
     r * Math.cos(elev) * Math.cos(phi),
